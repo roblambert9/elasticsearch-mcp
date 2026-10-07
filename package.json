@@ -1,0 +1,21 @@
+{
+  "name": "@nanoempire/elasticsearch-mcp",
+  "version": "1.0.0",
+  "description": "Production Elasticsearch vector & full-text search MCP server with query-cost bounds and autonomous x402 pay-per-call rails.",
+  "main": "server.py",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "@monetize",
+    "x402",
+    "solana",
+    "elasticsearch"
+  ],
+  "author": "Rob Lambert",
+  "license": "MIT",
+  "homepage": "https://www.nanoempireai.com/mcp/elasticsearch-mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roblambert9/elasticsearch-mcp.git"
+  }
+}

@@ -1,0 +1,13 @@
+# Smithery configuration for Elasticsearch MCP Enterprise (Monetized)
+name: "elasticsearch-mcp"
+version: "1.0.0"
+description: "Production Elasticsearch vector & full-text search MCP server with query-cost bounds and autonomous x402 pay-per-call rails."
+startCommand:
+  type: "stdio"
+  command: "python"
+  args: ["server.py"]
+tags:
+  - mcp
+  - monetization
+  - x402
+  - elasticsearch

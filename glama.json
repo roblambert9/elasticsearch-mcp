@@ -1,0 +1,16 @@
+{
+  "name": "elasticsearch-mcp",
+  "displayName": "Elasticsearch MCP Enterprise (Monetized)",
+  "description": "Production Elasticsearch vector & full-text search MCP server with query-cost bounds and autonomous x402 pay-per-call rails.",
+  "repository": "https://github.com/roblambert9/elasticsearch-mcp",
+  "command": "python",
+  "args": [
+    "server.py"
+  ],
+  "tags": [
+    "mcp",
+    "monetization",
+    "x402",
+    "elasticsearch"
+  ]
+}

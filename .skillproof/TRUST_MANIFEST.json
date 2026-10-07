@@ -1,0 +1,37 @@
+{
+  "attestation_id": "SP-EB0145E025A5",
+  "target": "elasticsearch-mcp",
+  "timestamp": "2026-10-07T19:54:57.598013+00:00",
+  "overall_score": 89,
+  "grade": "A (Production Certified \u2014 Low Risk)",
+  "vector_scores": {
+    "V1_SCHEMA_SANITIZATION": 100,
+    "V2_PATH_CONTAINMENT": 100,
+    "V3_COMMAND_INJECTION": 100,
+    "V4_NETWORK_SSRF": 70,
+    "V5_PROMPT_INJECTION_FRAMING": 80,
+    "V6_SECRET_LEAKAGE_REDACTION": 85
+  },
+  "findings_count": 3,
+  "findings": [
+    {
+      "vector": "V4_NETWORK_SSRF",
+      "severity": "MEDIUM",
+      "description": "Outbound HTTP requests present without private IP / loopback / cloud metadata SSRF guard."
+    },
+    {
+      "vector": "V5_PROMPT_INJECTION_FRAMING",
+      "severity": "LOW",
+      "description": "Returned tool payloads are returned raw without structured untrusted content tags."
+    },
+    {
+      "vector": "V6_SECRET_LEAKAGE_REDACTION",
+      "severity": "LOW",
+      "description": "Environment variable access present without output redaction mask."
+    }
+  ],
+  "audit_authority": "Nano Empire SkillProof Engine v2.4",
+  "directory_placement_url": "https://buy.stripe.com/eVq00keeo5n1bCzgIwfAc0c",
+  "verified_status": "CERTIFIED",
+  "cryptographic_hash": "32b08ae5b788a2f0661176e2123df4aaeab49a90c87be6876ee2cc69450d5720"
+}
